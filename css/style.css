@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0 0 50px 0;
+    font-family: Ubuntu;
+}
+
+h1#pageName{
+    margin: 35px auto;
+    text-align: center;
+    font-size: 60pt;
+}
+
+#wrapper{
+    width: 1024px;
+    min-height: 1366px;
+    margin: 0 auto;
+}
+
+#home{
+    text-align: center;
+    font-size: 22px;
+    color: orange;
+    display: block;
+}
+
+.imageBoxWrapper{
+    width: 100%;
+    height: 322px;
+    padding: 20px 0;
+}
+
+.imageBoxOdd, .imageBoxEven {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    float: left;
+    margin: 10px 0;
+}
+
+.imageBoxEven{
+    float: right;
+    margin-right: 165px;
+}
+
+.imageBoxOdd{
+    float: left;
+    margin-left: 165px;
+}
+
+h3.imageBanner{
+    margin: 0 0 30px 0;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0px;
+    font-size: 24pt;
+    text-align: center;
+    line-height: 24px;
+    width: 300px;
+    background: lightgray;
+}
