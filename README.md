@@ -1,2 +1,0 @@
-# Herbst
-Lager
